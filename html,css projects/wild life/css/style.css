@@ -1,0 +1,30 @@
+.t{margin-top: 100px;}
+.text,h4.card-title {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0c0c0c;
+  }
+  .navbar{background-color:rgb(255, 255, 255);}
+  .carousel{width: 100%;
+height: 100%;
+}
+footer{background-color: #111;}
+.img{width: 100%;
+padding: 20px ;}
+.icons{display: flex;
+justify-content: center;}
+.icons a{text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.footnav{margin: 30px 0;}
+.footnav ul{display: flex;
+justify-content: center;}
+.footnav ul li {color: white;
+margin: 20px;
+list-style-type: none;
+opacity: 0.7;
+}
+.footbottom{color: white;
+text-align: center;
+padding: 20px;}

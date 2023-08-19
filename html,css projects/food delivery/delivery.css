@@ -1,0 +1,72 @@
+li{
+    padding: 20px;
+    float: left;
+    color: rgb(246, 252, 252);
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(230, 70, 70);
+    overflow: hidden;
+
+}
+.one{
+    background-image: url(food1.jpg);
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 500px;
+    background-size: 100% 100%;
+    padding: 20px;
+    margin: 20px;
+}
+button{
+    font-size: 10px;
+    background-color: rgb(249, 95, 95);
+    margin-left: 65px;
+    
+}
+.para1{margin-left: 40px;}
+
+.four{text-align: center;}
+    
+.two{
+    border: 2px black solid;
+    width: 300px;
+    margin-left: 80px;
+    border-radius: 10px;
+    float: left;
+
+
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.para2{
+    margin-left: 4px;
+}
+.three{
+    border: 2px black solid;
+    width: 300px;
+    margin-left: 80px;
+    border-radius: 10px;
+    float: left;
+}
+.five{
+    border: 2px black solid;
+    width: 300px;
+    margin-left: 80px;
+    border-radius: 10px;
+    float: left;
+}
+h3{text-align: center;}
+a{color: aliceblue;
+text-decoration: none;}
+
+
+@media screen and (max-width: 800px) {
+    .one,.para1,.two.three.five,ul,li,h3,h2 {width: 100%;}
+}

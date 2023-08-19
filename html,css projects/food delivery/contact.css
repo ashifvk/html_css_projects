@@ -1,0 +1,38 @@
+div{
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+   ;
+    background-size: 100% 100%;
+    padding: 40px;
+    margin: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 600px;
+    
+
+}
+label{
+color: white;
+
+}
+textarea{
+    width: 300px;
+    height: 200px;
+}
+.text{
+    width: 300px;
+}
+.email{width: 300px;}
+h3{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5px;
+}
+button{
+    width: 60px;
+
+}
+@media  screen and(max-width:500px) {
+    div{width:100%}
+    
+}
